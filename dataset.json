@@ -1,0 +1,4002 @@
+[
+    {
+        "question": "Give information about what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "what is github meaning",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Give information about what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Explain what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Give information about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Use of how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Use of how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Define how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Why use what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Describe how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Describe how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Why use what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "What do you mean by how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "What is what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Why use what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Explain what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Tell me about what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Use of what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Define what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Tell me about how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Tell me about what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Why use what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Define what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Give information about how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Use of what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Describe what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Tell me about what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Explain what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Use of how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Give information about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "What is what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Define what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "What do you mean by how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "what is python meaning",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Define what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Use of what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Give information about what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Define how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What do you mean by what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Define how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "What is how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What do you mean by what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Describe what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Tell me about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "what is deep learning meaning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Give information about what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Why use what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Tell me about what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Use of how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "What is how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Why use what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Why use what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Give information about what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Define what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Describe what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Explain how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Explain how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Why use what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Describe how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Tell me about what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Explain what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Define how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Explain what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Define what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Tell me about what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Describe what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Why use how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Describe how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What is how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Give information about what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Describe what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Why use what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "What is what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Describe what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Why use what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Give information about what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What do you mean by what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Tell me about what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What is what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Define what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Describe how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Give information about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Define what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Define what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Give information about what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Use of what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Give information about what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "what is css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Use of what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "what is javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Explain how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "What is what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "how to install pandas meaning",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Use of what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Define what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "What do you mean by what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Use of what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Tell me about how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Describe what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Why use what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Explain how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Explain what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Explain what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Tell me about what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "What is what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Tell me about what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "how to install numpy meaning",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Define what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Use of what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "What is what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Describe what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Tell me about what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Tell me about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Define how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Describe how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Why use what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "What is what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Use of what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Give information about what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Explain what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "What is what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Use of what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Tell me about what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Explain what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Tell me about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Why use what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Describe what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Define what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What do you mean by what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Give information about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Use of how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Use of how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Why use how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Tell me about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Tell me about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Tell me about what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "What is what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Describe what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Use of what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Explain what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Describe what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Tell me about how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Use of what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "What is what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Give information about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What is what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Tell me about what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "how to install python meaning",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Give information about what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Why use how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Explain how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "what is django meaning",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Describe what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Tell me about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What is what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Why use what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Use of what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "What is what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Describe what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "What do you mean by what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What do you mean by what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Explain what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "how to install pandas meaning",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Define how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Give information about what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Describe what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Use of how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Tell me about what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "What is what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Describe how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Describe what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Explain how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Give information about what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Define what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "What is what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Why use what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "What do you mean by how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What is what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "What do you mean by what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Explain what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Define what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Explain what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Describe what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "What do you mean by how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Why use what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "What is what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Describe what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "What do you mean by how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Tell me about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Give information about what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Explain how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "how to install pandas meaning",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "What is how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Define what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Tell me about what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Describe what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Describe what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Describe what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "how to install ai libraries meaning",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Define how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Define what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Define what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Describe what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Define what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Define what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What is what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Describe what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Describe what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Define what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "What is what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Why use what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Use of what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Describe what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Why use what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Use of how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Describe how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "What is what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Use of what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Tell me about how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Define what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Explain how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Give information about what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Tell me about what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "What do you mean by what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Tell me about what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "how to install numpy meaning",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Give information about what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is github meaning",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What is what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "what is deep learning meaning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Define what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Use of what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "What is what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Tell me about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Explain what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Describe what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Tell me about what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Tell me about what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "What is what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Use of how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Use of what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Define what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "What is how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Describe how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Tell me about what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Tell me about what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Why use what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "What do you mean by what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Tell me about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What is how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "What do you mean by what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Why use what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Use of how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "What is what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "What do you mean by what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "What do you mean by what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Use of how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What do you mean by how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Tell me about how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Explain what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Use of how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Define what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "what is tensorflow meaning",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Explain what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Define how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "what is machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Why use what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Explain what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Define what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Give information about how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "What is what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Tell me about what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Explain what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Use of what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Define how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Define how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "What is how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "What do you mean by what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Explain what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Define what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What is how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Describe what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Explain what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "what is git meaning",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Explain what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What do you mean by how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "What do you mean by what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Tell me about what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Explain what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Why use what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Define how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Why use what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Give information about what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Explain how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "What is what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "how to install python meaning",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Tell me about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Give information about what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Why use how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Describe what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "What is what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Give information about how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Use of how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Use of how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "how to install pandas meaning",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Define what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Describe what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Why use what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Why use how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Explain what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Tell me about what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Give information about what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Describe what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "what is django meaning",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Define what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Why use what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What is what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "what is api meaning",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Use of what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "What do you mean by what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Why use what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Explain what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Describe what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Tell me about what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "how to install python meaning",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Use of what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Give information about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Define what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What do you mean by what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Explain how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Explain what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Define how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "what is numpy meaning",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Why use how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Tell me about what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Tell me about how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "What is what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Why use how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Explain how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Give information about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Describe what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Describe how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "what is javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is tensorflow meaning",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Describe what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Give information about what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Define what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "What is what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Describe what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Give information about what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Give information about what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Tell me about what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Describe what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What is what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Explain what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Explain what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Tell me about how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Tell me about what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "What is how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Tell me about what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Why use what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Use of what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "What is what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Tell me about what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Use of what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Tell me about how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Tell me about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Why use what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Use of what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "What is what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "What is what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Tell me about what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "how to install ai libraries meaning",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Explain how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "What do you mean by what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "What do you mean by what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "how to install pytorch meaning",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Explain what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "What do you mean by how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Describe what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "what is machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Explain what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Give information about what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Define how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Explain what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Explain what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "What is how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Give information about what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Why use how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Define what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Why use how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Why use what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Explain how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Why use what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Use of what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Explain what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Describe what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "What is what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Explain what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Explain what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "What is how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Explain how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Describe how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Use of what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is pytorch meaning",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Describe how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "What is what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Explain how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Define what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Explain how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "what is css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Why use how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Use of what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "What is how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What do you mean by what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Tell me about what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "what is html meaning",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Define what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "What is what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is ai meaning",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Tell me about what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Use of how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Describe what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Give information about how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Use of what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Use of what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "What is what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Define how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Describe what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "What is how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Describe what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "What is how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Describe how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What is what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "what is git meaning",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Give information about how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Define what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Describe what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Give information about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Define what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "how to install pandas meaning",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "what is python meaning",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Define what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Why use what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Tell me about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What is how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What do you mean by what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Give information about how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Use of what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "What do you mean by what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Explain how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Explain what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Explain what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Describe what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Give information about how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Why use what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Why use how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Why use what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "What do you mean by what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Give information about what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Define what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Explain how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Give information about what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Describe what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "What do you mean by what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Use of what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Give information about what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Explain what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "What do you mean by how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Define how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Describe what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Give information about what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "how to install pandas meaning",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Give information about what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Tell me about how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "What do you mean by what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "what is css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Give information about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Give information about how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Give information about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Describe how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "how to install flask meaning",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Tell me about what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Explain what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Describe what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "what is django meaning",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Define how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Why use how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Give information about what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "what is tensorflow meaning",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Explain what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "how to install python meaning",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Use of what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "What is what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Tell me about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Why use what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "what is css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Tell me about what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Define what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "what is flask meaning",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Give information about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Describe how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What do you mean by what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Describe how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "how to install ai libraries meaning",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Describe what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "What is what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Give information about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Explain how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Explain what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Describe what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "what is css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "how to install numpy meaning",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "What is what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "what is pandas meaning",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "what is numpy meaning",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "what is html meaning",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Use of what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Why use what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Describe what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "What do you mean by what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "how to install python meaning",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "What is what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Define what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "What do you mean by what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Use of what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Tell me about what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "What is what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Why use what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Why use what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "what is pytorch meaning",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "What is what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Why use what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Describe how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Use of what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Give information about what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Describe what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Define what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Tell me about what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "What is what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Explain what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Why use how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Tell me about what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Define how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What is how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Describe what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Why use how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Give information about what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Describe how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Tell me about what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Give information about how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "What do you mean by what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Use of what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Tell me about what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Tell me about what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Give information about what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Why use what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Use of what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "What is what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Tell me about what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Describe what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Give information about what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Explain what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Define how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Give information about how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Describe what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Describe what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "What do you mean by what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "what is api meaning",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Give information about what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Define what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Why use what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Explain what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Define what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "What is how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Give information about what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Use of what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Use of what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Define what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Why use what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Explain what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Tell me about what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Describe how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "what is sql meaning",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Why use what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Explain how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Why use what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What is how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Define how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Why use what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Give information about what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Define what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Give information about what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Explain what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Describe what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Define what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "what is python meaning",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Why use what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "how to install pandas meaning",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Describe how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Explain how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Give information about how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "What is what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "how to install tensorflow meaning",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Explain what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Define how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Define what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Give information about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "What is what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "how to install flask meaning",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "What is what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Describe what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "What is what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Tell me about what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Tell me about how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Explain what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Define what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Why use how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "What is what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "What do you mean by what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Why use how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Tell me about how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "What do you mean by what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Define what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "what is sql meaning",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Give information about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Why use what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Explain what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Explain what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "What do you mean by what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Describe what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Tell me about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Tell me about how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Give information about what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Give information about how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Use of what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Tell me about what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Describe what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Describe how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Why use how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What is what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Why use what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Describe how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Tell me about what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What do you mean by how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What is how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Why use what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Give information about what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Define how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Define how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "what is machine learning meaning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "What do you mean by what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Tell me about how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Why use how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Use of what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Describe what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Use of how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Why use what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Define how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "what is javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Give information about what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Use of what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Use of how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Describe what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "how to install pandas meaning",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Use of how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "What do you mean by how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What do you mean by how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Why use what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Describe how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Tell me about how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Give information about how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Use of how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Give information about what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Explain how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "What is how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What do you mean by how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Describe how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Why use what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "what is pytorch meaning",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Tell me about how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Explain how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What is what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Tell me about what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Tell me about how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Use of how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Give information about what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Tell me about what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Give information about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Explain what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "what is api meaning",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Give information about what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Describe what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Use of how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Tell me about what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "what is python meaning",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Use of what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Give information about what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Tell me about how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Define what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "What is what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Use of how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Why use what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Describe how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "what is python meaning",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Explain what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Define what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Use of what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Give information about what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Describe what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What do you mean by how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "What is what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What do you mean by what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Tell me about what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Describe what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Tell me about what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "What do you mean by what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is git meaning",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Define what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "What do you mean by what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Explain what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Describe how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What is what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Tell me about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Why use what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "What do you mean by what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Give information about what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "What is how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Use of what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Define what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What is what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Give information about what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "what is github meaning",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Give information about what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Use of how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Use of how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "What do you mean by what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Tell me about what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "What is what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Why use what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What is how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Describe what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Tell me about what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Explain what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "What do you mean by how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Why use what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Define what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Why use what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "What do you mean by what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Explain what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "What is what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Use of what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Explain what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Explain what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Describe what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "how to install ai libraries meaning",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Why use what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Explain how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "What do you mean by what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Use of what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Describe what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Define what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Why use what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Define how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What do you mean by what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Explain what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Explain how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "What do you mean by how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Tell me about what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Describe what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Define what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Tell me about what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Give information about what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Use of what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Use of how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Why use what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "What is what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Tell me about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Why use what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "what is pandas meaning",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "what is javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Describe what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Define what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "What is what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What is how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "What do you mean by what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "What is what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Define what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is git meaning",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Tell me about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "what is javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Why use what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "what is css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is github meaning",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Use of what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Use of what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Give information about what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Use of what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Describe what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Tell me about how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Describe what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Give information about what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Why use how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Tell me about how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Use of what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Tell me about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Use of what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Define what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Use of what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Explain what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Define what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "What is what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Use of how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "how to install ai libraries meaning",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Why use what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Explain what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "what is django meaning",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Describe what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Give information about what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Explain how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Describe how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "What is how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Explain how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Describe what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "what is git meaning",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "What do you mean by what is flask",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "Give information about how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Define what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Define how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Use of what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "what is tensorflow meaning",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Explain what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Why use how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Define what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Give information about what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Explain what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Give information about what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Tell me about what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "What do you mean by what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Why use what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Why use what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Give information about how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Explain what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Explain what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Explain what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Explain how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "how to install numpy meaning",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Define what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Why use what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "What is what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Explain what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Explain what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "how to install pytorch meaning",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Describe what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What do you mean by what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Explain what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Define what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Why use what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Tell me about what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "Use of what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Describe what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Give information about what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Explain what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "what is flask meaning",
+        "answer": "Flask is a lightweight Python web framework used to build web apps."
+    },
+    {
+        "question": "What is what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Define what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "What do you mean by what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "how to install flask meaning",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "What is what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "what is github meaning",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Why use what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "what is deep learning meaning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Give information about how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Tell me about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "What do you mean by what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Give information about what is pytorch",
+        "answer": "PyTorch is a deep learning framework."
+    },
+    {
+        "question": "Use of how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Why use how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "What do you mean by what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Why use how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "What do you mean by what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Define what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Explain what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Tell me about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "what is javascript meaning",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Explain what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Give information about what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Define what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "What is what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Describe what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Explain what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "Why use what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Define what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "What is what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "how to install python meaning",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Explain what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Why use what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Give information about how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Why use what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Explain what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Give information about what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Define what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Define how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "what is tensorflow meaning",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Tell me about what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Tell me about what is git",
+        "answer": "Git is a version control system."
+    },
+    {
+        "question": "Explain what is ai",
+        "answer": "AI stands for Artificial Intelligence."
+    },
+    {
+        "question": "what is sql meaning",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "What do you mean by what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Give information about what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "what is deep learning meaning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "Why use how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Define how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Tell me about how to install flask",
+        "answer": "Run pip install flask"
+    },
+    {
+        "question": "Describe what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "What is what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Explain what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Why use what is pandas",
+        "answer": "Pandas is used for data analysis."
+    },
+    {
+        "question": "Define how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Why use how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Use of what is machine learning",
+        "answer": "Machine Learning allows systems to learn from data."
+    },
+    {
+        "question": "What is what is html",
+        "answer": "HTML is used to structure web pages."
+    },
+    {
+        "question": "Define what is python",
+        "answer": "Python is a high-level programming language used for AI, web development, and data science."
+    },
+    {
+        "question": "Explain what is django",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "Use of what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Explain how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Use of how to install pytorch",
+        "answer": "Run pip install torch torchvision"
+    },
+    {
+        "question": "Why use what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "what is django meaning",
+        "answer": "Django is a full-stack Python web framework."
+    },
+    {
+        "question": "What do you mean by what is javascript",
+        "answer": "JavaScript makes web pages interactive."
+    },
+    {
+        "question": "Explain what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "What is what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    },
+    {
+        "question": "what is numpy meaning",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "Tell me about how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Why use what is tensorflow",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "what is css meaning",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "Describe how to install pandas",
+        "answer": "Run pip install pandas"
+    },
+    {
+        "question": "Explain what is css",
+        "answer": "CSS is used to style web pages."
+    },
+    {
+        "question": "what is numpy meaning",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "What is how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "what is tensorflow meaning",
+        "answer": "TensorFlow is a deep learning framework."
+    },
+    {
+        "question": "Why use how to install numpy",
+        "answer": "Run pip install numpy"
+    },
+    {
+        "question": "Give information about what is numpy",
+        "answer": "NumPy is used for numerical computing."
+    },
+    {
+        "question": "What is how to install tensorflow",
+        "answer": "Run pip install tensorflow"
+    },
+    {
+        "question": "Define what is api",
+        "answer": "API allows communication between software systems."
+    },
+    {
+        "question": "Define what is sql",
+        "answer": "SQL is used to manage databases."
+    },
+    {
+        "question": "Tell me about what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "Explain how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Give information about what is github",
+        "answer": "GitHub is a code hosting platform."
+    },
+    {
+        "question": "What do you mean by how to install ai libraries",
+        "answer": "Use pip install numpy pandas scikit-learn tensorflow"
+    },
+    {
+        "question": "Tell me about how to install python",
+        "answer": "Download Python from python.org and install it."
+    },
+    {
+        "question": "Use of what is deep learning",
+        "answer": "Deep Learning is a subset of Machine Learning."
+    }
+]

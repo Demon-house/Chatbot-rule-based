@@ -1,63 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ChatBot</title>
+    <title>AI Chatbot 3D</title>
     <link rel="stylesheet" href="/static/style.css">
 </head>
-
 <body>
 
-<div class="container">
+<div class="bg"></div>
 
-<div class="header">Simple Rule ChatBot</div>
+<div class="app">
 
-<div class="chat" id="chat"></div>
+    <div class="header">
+        🤖 AI Assistant
+        <span>ML Powered Chatbot</span>
+    </div>
 
-<div class="input-box">
-<input id="msg" placeholder="Type message..."
-onkeydown="if(event.key==='Enter'){send()}">
+    <div class="chatbox" id="chatbox"></div>
 
-<button onclick="send()">Send</button>
+    <div class="input-area">
+        <input id="msg" placeholder="Ask anything...">
+        <button onclick="sendMsg()">➤</button>
+    </div>
+
 </div>
 
-</div>
-
-<script>
-
-function addMsg(text, cls) {
-    let div = document.createElement("div");
-    div.className = "msg " + cls;
-    div.innerText = text;
-
-    document.getElementById("chat").appendChild(div);
-
-    document.getElementById("chat").scrollTop =
-    document.getElementById("chat").scrollHeight;
-}
-
-async function send() {
-
-    let input = document.getElementById("msg");
-    let msg = input.value.trim();
-
-    if (!msg) return;
-
-    addMsg(msg, "user");
-
-    input.value = "";
-
-    let res = await fetch("/chat", {
-        method: "POST",
-        headers: {"Content-Type": "application/json"},
-        body: JSON.stringify({message: msg})
-    });
-
-    let data = await res.json();
-
-    addMsg(data.reply, "bot");
-}
-
-</script>
+<script src="/static/script.js"></script>
 
 </body>
 </html>
