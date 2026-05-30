@@ -9,7 +9,6 @@ bot = Chatbot()
 def home():
     return render_template("index.html")
 
-
 @app.route("/chat", methods=["POST"])
 def chat():
 
@@ -18,18 +17,22 @@ def chat():
     raw = re.split(r'[?.!]', msg)
 
     queries = []
+
     for r in raw:
+
         if " and " in r:
             queries.extend(r.split(" and "))
+
         elif "," in r:
             queries.extend(r.split(","))
+
         else:
             queries.append(r)
 
     queries = [q.strip() for q in queries if q.strip()]
 
     if len(queries) > 5:
-        return jsonify({"reply": "Max 5 questions allowed."})
+        return jsonify({"reply": "Only 5 questions allowed."})
 
     responses = []
 
@@ -37,25 +40,29 @@ def chat():
 
     for q in queries:
 
-        q_low = q.lower()
-
-        if "numpy" in q_low:
+        if "numpy" in q:
             subject = "numpy"
-        elif "pandas" in q_low:
-            subject = "pandas"
-        elif "tensorflow" in q_low:
+
+        elif "tensorflow" in q:
             subject = "tensorflow"
-        elif "pytorch" in q_low:
+
+        elif "pandas" in q:
+            subject = "pandas"
+
+        elif "pytorch" in q:
             subject = "pytorch"
 
-        if "install" in q_low and subject:
+        if "install" in q and subject:
             q = f"how to install {subject}"
 
         ans = bot.get_response(q)
-        responses.append(f"Q: {q}\nA: {ans}")
 
-    return jsonify({"reply": "\n\n".join(responses)})
+        responses.append({
+            "question": q,
+            "answer": ans
+        })
 
+    return jsonify({"reply": responses})
 
 if __name__ == "__main__":
-   app.run(debug=True, port=5001)
+    app.run(debug=True, port=5002)
