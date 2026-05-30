@@ -6,9 +6,8 @@ import re
 app = Flask(__name__)
 bot = Chatbot()
 
-# simple configuration
+
 MAX_MESSAGE_LENGTH = 1024
-# if you want to enable a simple API token for local protection, set this to a value
 API_TOKEN = None
 
 @app.route("/")
@@ -18,7 +17,6 @@ def home():
 @app.route("/chat", methods=["POST"])
 def chat():
 
-    # basic validation
 
     try:
         payload = request.get_json(force=True)
@@ -39,7 +37,7 @@ def chat():
         if token != API_TOKEN:
             return jsonify({"reply": [{"question": "", "answer": "Unauthorized."}]}), 401
 
-    # clean and normalize input
+   
     msg = clean_input(raw_msg)
 
     raw = re.split(r'[?.!]', msg)
