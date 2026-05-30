@@ -7,8 +7,6 @@ app = Flask(__name__)
 bot = Chatbot()
 
 
-MAX_MESSAGE_LENGTH = 1024
-API_TOKEN = None
 
 @app.route("/")
 def home():
@@ -28,67 +26,65 @@ def chat():
     if not raw_msg:
         return jsonify({"reply": [{"question": "", "answer": "Invalid request: no message provided."}]}), 400
 
-    if len(raw_msg) > MAX_MESSAGE_LENGTH:
-        return jsonify({"reply": [{"question": "", "answer": f"Message too long. Limit {MAX_MESSAGE_LENGTH} characters."}]}), 400
 
-    # optional token check
-    if API_TOKEN:
-        token = request.headers.get("X-API-Token")
-        if token != API_TOKEN:
-            return jsonify({"reply": [{"question": "", "answer": "Unauthorized."}]}), 401
 
    
     msg = clean_input(raw_msg)
 
-    raw = re.split(r'[?.!]', msg)
+    try:
+        raw = re.split(r'[?.!]', msg)
 
-    queries = []
+        queries = []
 
-    for r in raw:
+        for r in raw:
 
-        if " and " in r:
-            queries.extend(r.split(" and "))
+            if " and " in r:
+                queries.extend(r.split(" and "))
 
-        elif "," in r:
-            queries.extend(r.split(","))
+            elif "," in r:
+                queries.extend(r.split(","))
 
-        else:
-            queries.append(r)
+            else:
+                queries.append(r)
 
-    queries = [q.strip() for q in queries if q.strip()]
+        queries = [q.strip() for q in queries if q.strip()]
 
-    if len(queries) > 5:
-        return jsonify({"reply": [{"question": "", "answer": "Only 5 questions allowed."}]})
+        if len(queries) > 5:
+            return jsonify({"reply": [{"question": "", "answer": "Only 5 questions allowed."}]})
 
-    responses = []
+        responses = []
 
-    subject = None
+        subject = None
 
-    for q in queries:
+        for q in queries:
 
-        if "numpy" in q:
-            subject = "numpy"
+            if "numpy" in q:
+                subject = "numpy"
 
-        elif "tensorflow" in q:
-            subject = "tensorflow"
+            elif "tensorflow" in q:
+                subject = "tensorflow"
 
-        elif "pandas" in q:
-            subject = "pandas"
+            elif "pandas" in q:
+                subject = "pandas"
 
-        elif "pytorch" in q:
-            subject = "pytorch"
+            elif "pytorch" in q:
+                subject = "pytorch"
 
-        if "install" in q and subject:
-            q = f"how to install {subject}"
+            if "install" in q and subject:
+                q = f"how to install {subject}"
 
-        ans = bot.get_response(q)
+            ans = bot.get_response(q)
 
-        responses.append({
-            "question": q,
-            "answer": ans
-        })
+            responses.append({
+                "question": q,
+                "answer": ans
+            })
 
-    return jsonify({"reply": responses})
+        return jsonify({"reply": responses})
+    except Exception as e:
+        print("Unhandled error in /chat:", e)
+        return jsonify({"reply": [{"question": "", "answer": "Internal server error."}]}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5002)
+    # bind to localhost and disable debug to avoid accidental public exposure
+    app.run(host="127.0.0.1", debug=False, port=5002)

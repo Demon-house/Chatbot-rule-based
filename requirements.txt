@@ -39,6 +39,7 @@ httpcore==1.0.9
 httpx==0.25.2
 huggingface_hub==1.16.1
 idna==3.15
+iniconfig==2.3.0
 ipykernel==7.2.0
 ipython==9.13.0
 ipython_pygments_lexers==1.1.1
@@ -90,6 +91,7 @@ pandocfilters==1.5.1
 parso==0.8.7
 pexpect==4.9.0
 platformdirs==4.9.6
+pluggy==1.6.0
 prometheus_client==0.25.0
 prompt_toolkit==3.0.52
 protobuf==7.34.1
@@ -260,6 +262,7 @@ pyobjc-framework-VideoToolbox==12.1
 pyobjc-framework-Virtualization==12.1
 pyobjc-framework-Vision==12.1
 pyobjc-framework-WebKit==12.1
+pytest==9.0.3
 python-dateutil==2.9.0.post0
 python-json-logger==4.1.0
 python-telegram-bot==20.7
