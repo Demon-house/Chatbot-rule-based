@@ -1,9 +1,15 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, abort
 from model import Chatbot
+from utils.security import clean_input
 import re
 
 app = Flask(__name__)
 bot = Chatbot()
+
+# simple configuration
+MAX_MESSAGE_LENGTH = 1024
+# if you want to enable a simple API token for local protection, set this to a value
+API_TOKEN = None
 
 @app.route("/")
 def home():
@@ -12,7 +18,29 @@ def home():
 @app.route("/chat", methods=["POST"])
 def chat():
 
-    msg = request.json["message"].lower()
+    # basic validation
+
+    try:
+        payload = request.get_json(force=True)
+    except Exception:
+        return jsonify({"reply": [{"question": "", "answer": "Invalid JSON payload."}]}), 400
+
+    raw_msg = payload.get("message") if isinstance(payload, dict) else None
+
+    if not raw_msg:
+        return jsonify({"reply": [{"question": "", "answer": "Invalid request: no message provided."}]}), 400
+
+    if len(raw_msg) > MAX_MESSAGE_LENGTH:
+        return jsonify({"reply": [{"question": "", "answer": f"Message too long. Limit {MAX_MESSAGE_LENGTH} characters."}]}), 400
+
+    # optional token check
+    if API_TOKEN:
+        token = request.headers.get("X-API-Token")
+        if token != API_TOKEN:
+            return jsonify({"reply": [{"question": "", "answer": "Unauthorized."}]}), 401
+
+    # clean and normalize input
+    msg = clean_input(raw_msg)
 
     raw = re.split(r'[?.!]', msg)
 
@@ -32,7 +60,7 @@ def chat():
     queries = [q.strip() for q in queries if q.strip()]
 
     if len(queries) > 5:
-        return jsonify({"reply": "Only 5 questions allowed."})
+        return jsonify({"reply": [{"question": "", "answer": "Only 5 questions allowed."}]})
 
     responses = []
 

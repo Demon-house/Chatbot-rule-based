@@ -1,27 +1,27 @@
 import json
 import numpy as np
-import faiss
-from sentence_transformers import SentenceTransformer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity
 import difflib
+
 
 class Chatbot:
 
     def __init__(self):
 
-        self.model = SentenceTransformer("all-MiniLM-L6-v2")
-
-        with open("dataset.json", "r") as f:
+        # Use a local TF-IDF vectorizer instead of a remote pre-trained model
+        with open("dataset.json", "r", encoding="utf-8") as f:
             self.data = json.load(f)
 
         self.questions = [x["question"] for x in self.data]
         self.answers = [x["answer"] for x in self.data]
 
-        self.embeddings = self.model.encode(self.questions)
+        # Build TF-IDF matrix for all questions (local, no external downloads)
+        self.vectorizer = TfidfVectorizer()
+        # q_vectors is a (n_questions x n_features) sparse matrix
+        self.q_vectors = self.vectorizer.fit_transform(self.questions)
 
-        self.index = faiss.IndexFlatL2(self.embeddings.shape[1])
-
-        self.index.add(np.array(self.embeddings).astype("float32"))
-
+        # small vocabulary used for fuzzy corrections
         self.words = [
             "numpy",
             "tensorflow",
@@ -56,18 +56,18 @@ class Chatbot:
 
         query = self.fix(query)
 
-        vec = self.model.encode([query])
+        # vectorize query using local TF-IDF
+        vec = self.vectorizer.transform([query])
 
-        D, I = self.index.search(
-            np.array(vec).astype("float32"),
-            1
-        )
+        # cosine similarity between query and all questions
+        sims = cosine_similarity(vec, self.q_vectors)[0]
 
-        idx = I[0][0]
+        idx = int(np.argmax(sims))
 
-        dist = D[0][0]
+        score = float(sims[idx])
 
-        if dist > 1.2:
+        # threshold for unknown topics (tweakable)
+        if score < 0.2:
             return "Sorry, I don't know this topic."
 
         return self.answers[idx]

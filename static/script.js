@@ -6,22 +6,20 @@ function sendMsg(){
 
     let chatbox = document.getElementById("chatbox");
 
-    let html = `
+    // create user message element safely
+    const messageEl = document.createElement('div');
+    messageEl.className = 'message';
 
-    <div class="message">
+    const userBox = document.createElement('div');
+    userBox.className = 'user-box';
 
-        <div class="user-box">
+    const userMsg = document.createElement('div');
+    userMsg.className = 'user-msg';
+    userMsg.textContent = msg; // safe insertion
 
-            <div class="user-msg">
-                ${msg}
-            </div>
-
-        </div>
-
-    </div>
-    `;
-
-    chatbox.innerHTML += html;
+    userBox.appendChild(userMsg);
+    messageEl.appendChild(userBox);
+    chatbox.appendChild(messageEl);
 
     fetch("/chat",{
 
@@ -37,43 +35,60 @@ function sendMsg(){
 
     })
 
-    .then(res=>res.json())
-
-    .then(data=>{
+    .then(res => res.json())
+    .then(data => {
+        if (!data || !Array.isArray(data.reply)) return;
 
         data.reply.forEach(item=>{
+            const messageEl = document.createElement('div');
+            messageEl.className = 'message';
 
-            let bot = `
+            const botBox = document.createElement('div');
+            botBox.className = 'bot-box';
 
-            <div class="message">
+            const botIcon = document.createElement('div');
+            botIcon.className = 'bot-icon';
+            botIcon.textContent = '🤖';
 
-                <div class="bot-box">
+            const botMsg = document.createElement('div');
+            botMsg.className = 'bot-msg';
 
-                    <div class="bot-icon">
-                        🤖
-                    </div>
+            // build Q/A with safe text nodes and basic formatting
+            const qLabel = document.createElement('b');
+            qLabel.textContent = 'Q:';
 
-                    <div class="bot-msg">
+            const qText = document.createElement('div');
+            qText.textContent = item.question || '';
+            qText.style.marginTop = '4px';
 
-                        <b>Q:</b> ${item.question}
-                        <br><br>
+            const aLabel = document.createElement('b');
+            aLabel.textContent = 'A:';
 
-                        <b>A:</b> ${item.answer}
+            const aText = document.createElement('div');
+            aText.textContent = item.answer || '';
+            aText.style.marginTop = '6px';
 
-                    </div>
+            botMsg.appendChild(qLabel);
+            botMsg.appendChild(document.createElement('br'));
+            botMsg.appendChild(document.createElement('br'));
+            botMsg.appendChild(qText);
+            botMsg.appendChild(document.createElement('br'));
+            botMsg.appendChild(document.createElement('br'));
+            botMsg.appendChild(aLabel);
+            botMsg.appendChild(document.createElement('br'));
+            botMsg.appendChild(aText);
 
-                </div>
+            botBox.appendChild(botIcon);
+            botBox.appendChild(botMsg);
 
-            </div>
-            `;
+            messageEl.appendChild(botBox);
+            chatbox.appendChild(messageEl);
 
-            chatbox.innerHTML += bot;
-
-            chatbox.scrollTop =
-            chatbox.scrollHeight;
-
+            chatbox.scrollTop = chatbox.scrollHeight;
         });
-
+    })
+    .catch(err => {
+        console.error('Chat request failed', err);
     });
 
     document.getElementById("msg").value="";
