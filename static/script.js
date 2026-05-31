@@ -1,95 +1,49 @@
-function sendMsg(){
+document.addEventListener('DOMContentLoaded', ()=>{
+    const textarea = document.getElementById('msg');
+    const sendBtn = document.getElementById('sendBtn') || document.getElementById('send');
+    const chatbox = document.getElementById('chatbox');
+    const typing = document.getElementById('typingIndicator');
 
-    let msg = document.getElementById("msg").value;
+    function fmtTime(){
+        const d = new Date();
+        return `${String(d.getHours()).padStart(2,'0')}:${String(d.getMinutes()).padStart(2,'0')}`;
+    }
 
-    if(!msg.trim()) return;
+    function showTyping(v){ if(!typing) return; typing.style.display = v? 'inline-block':'none'; }
 
-    let chatbox = document.getElementById("chatbox");
+    function appendUser(text){
+        const el = document.createElement('div'); el.className='message';
+        const bubble = document.createElement('div'); bubble.className='user-msg'; bubble.textContent = text;
+        el.appendChild(bubble);
+        chatbox.appendChild(el);
+        chatbox.scrollTop = chatbox.scrollHeight;
+    }
 
-    // create user message element safely
-    const messageEl = document.createElement('div');
-    messageEl.className = 'message';
+    function appendBot(item){
+        const el = document.createElement('div'); el.className='message';
+        const icon = document.createElement('div'); icon.className='bot-icon'; icon.textContent='🤖';
+        const bubble = document.createElement('div'); bubble.className='bot-msg';
+        // assistant-only answer
+        let answer='';
+        if(typeof item==='string') answer=item;
+        else if(item && (item.answer || item.text)) answer = item.answer||item.text;
+        else answer = (item && item.toString) ? String(item) : '';
+        bubble.textContent = answer;
+        el.appendChild(icon); el.appendChild(bubble);
+        chatbox.appendChild(el);
+        chatbox.scrollTop = chatbox.scrollHeight;
+    }
 
-    const userBox = document.createElement('div');
-    userBox.className = 'user-box';
+    function sendMsg(){
+        const msg = textarea.value||''; if(!msg.trim()) return;
+        appendUser(msg); textarea.value=''; textarea.focus(); showTyping(true);
+        fetch('/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:msg})})
+            .then(r=>r.json())
+            .then(data=>{ showTyping(false); if(!data || !Array.isArray(data.reply)) return; data.reply.forEach(i=>appendBot(i)); })
+            .catch(err=>{ showTyping(false); console.error(err); appendBot('There was an error contacting the assistant.'); });
+    }
 
-    const userMsg = document.createElement('div');
-    userMsg.className = 'user-msg';
-    userMsg.textContent = msg; // safe insertion
-
-    userBox.appendChild(userMsg);
-    messageEl.appendChild(userBox);
-    chatbox.appendChild(messageEl);
-
-    fetch("/chat",{
-
-        method:"POST",
-
-        headers:{
-            "Content-Type":"application/json"
-        },
-
-        body:JSON.stringify({
-            message:msg
-        })
-
-    })
-
-    .then(res => res.json())
-    .then(data => {
-        if (!data || !Array.isArray(data.reply)) return;
-
-        data.reply.forEach(item=>{
-            const messageEl = document.createElement('div');
-            messageEl.className = 'message';
-
-            const botBox = document.createElement('div');
-            botBox.className = 'bot-box';
-
-            const botIcon = document.createElement('div');
-            botIcon.className = 'bot-icon';
-            botIcon.textContent = '🤖';
-
-            const botMsg = document.createElement('div');
-            botMsg.className = 'bot-msg';
-
-            // build Q/A with safe text nodes and basic formatting
-            const qLabel = document.createElement('b');
-            qLabel.textContent = 'Q:';
-
-            const qText = document.createElement('div');
-            qText.textContent = item.question || '';
-            qText.style.marginTop = '4px';
-
-            const aLabel = document.createElement('b');
-            aLabel.textContent = 'A:';
-
-            const aText = document.createElement('div');
-            aText.textContent = item.answer || '';
-            aText.style.marginTop = '6px';
-
-            botMsg.appendChild(qLabel);
-            botMsg.appendChild(document.createElement('br'));
-            botMsg.appendChild(document.createElement('br'));
-            botMsg.appendChild(qText);
-            botMsg.appendChild(document.createElement('br'));
-            botMsg.appendChild(document.createElement('br'));
-            botMsg.appendChild(aLabel);
-            botMsg.appendChild(document.createElement('br'));
-            botMsg.appendChild(aText);
-
-            botBox.appendChild(botIcon);
-            botBox.appendChild(botMsg);
-
-            messageEl.appendChild(botBox);
-            chatbox.appendChild(messageEl);
-
-            chatbox.scrollTop = chatbox.scrollHeight;
-        });
-    })
-    .catch(err => {
-        console.error('Chat request failed', err);
-    });
-
-    document.getElementById("msg").value="";
-}
+    textarea.addEventListener('keydown', e=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); sendMsg(); } });
+    if(sendBtn) sendBtn.addEventListener('click', sendMsg);
+    window.sendMsg = sendMsg;
+});

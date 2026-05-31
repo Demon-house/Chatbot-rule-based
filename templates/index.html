@@ -1,102 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>AI Assistant</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <div class="app">
+            <aside class="sidebar">
+                <div class="logo"><div class="logo-icon">🤖</div><div class="logo-text"><div class="title">AI Assistant</div><div class="subtitle">ML Powered Chatbot</div></div></div>
+                <button class="new-chat">+ New Chat</button>
+                <nav class="menu">
+                    <button class="item active">Chat</button>
+                    <button class="item">Knowledge</button>
+                    <button class="item">Settings</button>
+                </nav>
+            </aside>
 
-<head>
+            <main class="container">
+                <header class="header">
+                    <div class="header-left"></div>
+                    <div class="profile">🤖</div>
+                </header>
 
-    <meta charset="UTF-8">
+                <section id="chatbox" class="chatbox" role="log" aria-live="polite">
+                    <div class="welcome">
+                        <h1>Hello, Developer!</h1>
+                        <p>Ask me anything about your project.</p>
+                    </div>
+                </section>
 
-    <title>AI Assistant</title>
-
-    <link rel="stylesheet" href="/static/style.css">
-
-</head>
-
-<body>
-
-<div class="sidebar">
-
-    <div class="logo">
-
-        🤖 AI Assistant
-
-        <span>ML Powered Chatbot</span>
-
-    </div>
-
-    <button class="new-chat">
-        + New Chat
-    </button>
-
-    <div class="menu">
-
-        <div class="item active">
-            <i class="fa-regular fa-comment"></i>
-            Chat
+                <div class="composer">
+                    <textarea id="msg" placeholder="Type a message and press Enter to send" aria-label="Message"></textarea>
+                    <button id="sendBtn" class="send">Send</button>
+                    <div id="typingIndicator" class="typing" aria-hidden="true">Assistant is typing<span class="dot">.</span><span class="dot">.</span><span class="dot">.</span></div>
+                </div>
+            </main>
         </div>
 
-        <div class="item">
-            <i class="fa-solid fa-book"></i>
-            Knowledge Base
-        </div>
-
-        <div class="item">
-            <i class="fa-solid fa-gear"></i>
-            Settings
-        </div>
-
-    </div>
-
-</div>
-
-<div class="main">
-
-    <div class="topbar">
-
-        <input
-        type="text"
-        placeholder="Search anything...">
-
-        <div class="icons">
-
-            <i class="fa-solid fa-moon"></i>
-
-            <i class="fa-regular fa-bell"></i>
-
-            <div class="profile">
-                🤖
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="chat-area" id="chatbox">
-
-        <div class="welcome">
-
-            <h1>Hello, Developer!</h1>
-
-            <p>How can I help you today?</p>
-
-        </div>
-
-    </div>
-
-    <div class="bottom">
-
-        <input
-        id="msg"
-        placeholder="Type your message here...">
-
-        <button onclick="sendMsg()">
-            <i class="fa-solid fa-paper-plane"></i>
-        </button>
-
-    </div>
-
-</div>
-
-<script src="/static/script.js"></script>
-
-</body>
+        <script src="/static/script.js"></script>
+    </body>
 </html>
